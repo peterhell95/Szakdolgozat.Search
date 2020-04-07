@@ -12,7 +12,7 @@ import szakdolgozat.search.dto.BookDTO;
 import szakdolgozat.search.services.SearchService;
 
 @RestController
-@RequestMapping("/search")
+@RequestMapping("/api/search")
 public class SearchController {
 
     @Autowired
