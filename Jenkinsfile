@@ -22,7 +22,7 @@ pipeline {
         
          stage ('Docker Build') {
             steps {
-                sh 'docker build -t peterhell95/order:jenkins .' 
+                sh 'docker build -t peterhell95/search:jenkins .' 
             }
         }
         
@@ -34,7 +34,7 @@ pipeline {
         
          stage ('Docker Push') {
             steps {
-                sh 'docker push peterhell95/order:jenkins' 
+                sh 'docker push peterhell95/search:jenkins' 
             }
         }
     }
